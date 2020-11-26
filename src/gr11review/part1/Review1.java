@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Review1{
 	public static void main(String[] args) throws IOException{
-    
+    BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
     //Variables
     int intMonth;
     int intDay;
@@ -11,13 +11,13 @@ public class Review1{
     int intTotal;
 
     //Getting info
-    System.out.print("Enter month number");
+    System.out.println("Enter month number");
     //asks for the number of the month
     intMonth = Integer.parseInt(keyboard.readLine());
     //reads what month number has been chosen
     if(intMonth <= 12){
       //there are only 12 months so this restricts what numbers you can input 
-      System.out.print("Enter day number");
+      System.out.println("Enter day number");
       //asks for the day
       intDay = Integer.parseInt(keyboard.readLine());
       //reads what day it is
