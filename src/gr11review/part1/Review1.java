@@ -23,41 +23,30 @@ public class Review1{
       //reads what day it is
       if(intMonth == 1 && intDay <= 31){
         intCount = 0;
-        if(intMonth == 2 && intDay <=28){
+        }else if(intMonth == 2 && intDay <=28){
           intCount = 31;
-          if(intMonth == 3 && intDay <=31){
+          }else if(intMonth == 3 && intDay <=31){
             intCount = 59;
-            if(intMonth == 4 && intDay <=30){
+           }else if(intMonth == 4 && intDay <=30){
               intCount = 90;
-              if(intMonth == 5 && intDay <=31){
+              }else if(intMonth == 5 && intDay <=31){
                 intCount = 120;
-                if(intMonth == 6 && intDay <=30){
+                }else if(intMonth == 6 && intDay <=30){
                   intCount = 151;
-                  if(intMonth == 7 && intDay <=31){
+                  }else if(intMonth == 7 && intDay <=31){
                     intCount = 181;
-                    if(intMonth == 8 && intDay <=31){
+                    }else if(intMonth == 8 && intDay <=31){
                       intCount = 212;
-                      if(intMonth == 9 && intDay <=30){
+                      }else if(intMonth == 9 && intDay <=30){
                         intCount = 243;
-                        if(intMonth == 10 && intDay <=31){
+                        }else if(intMonth == 10 && intDay <=31){
                           intCount = 273;
-                          if(intMonth == 11 && intDay <=30){
+                          }else if(intMonth == 11 && intDay <=30){
                             intCount =304;
-                            if(intMonth == 12 && intDay <=31){
+                            }else if(intMonth == 12 && intDay <=31){
                               intCount = 335;
                               intTotal = intCount + intDay;
                               System.out.println(intTotal);
-                            }
-                          }
-                        }
-                      }
-                    }                             
-                  }
-                }
-              } 
-            }
-          }
-        }
       }
     }
   }
