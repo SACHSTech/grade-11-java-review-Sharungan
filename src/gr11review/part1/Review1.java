@@ -22,7 +22,7 @@ public class Review1{
       //asks for the day
       intDay = Integer.parseInt(keyboard.readLine());
       //reads what day it is
-
+      intCount = 0;
       // Calculations
       if(intMonth == 1 && intDay <= 31){
         intCount = 0;
@@ -60,11 +60,12 @@ public class Review1{
                             }else if(intMonth == 12 && intDay <=31){
                               intCount = 335;
                               //if December start count at 335 because you add the days of the previous months
-                              intTotal = intCount + intDay;
-                              //Total number of days is equal to the sum of the previous months plus the day of the current month
-                              System.out.println("Day "+intTotal);
-                              //prints out the total number of days
-      }
+                            }
+        intTotal = intCount + intDay;
+        //Total number of days is equal to the sum of the previous months plus the day of the current month
+        System.out.println("Day "+intTotal);
+        //prints out the total number of days
+      
     }
   }
 }
