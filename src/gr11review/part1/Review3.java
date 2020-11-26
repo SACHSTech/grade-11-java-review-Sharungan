@@ -3,13 +3,19 @@ import java.io.*;
 
 public class Review3{
 	public static void main(String[] args) throws IOException{
-    BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
-    int intPrime;
+    //Variables
     int intCount;
-    for(intCount= 0; intCount<= 100; intCount++){
-      intPrime = intCount;
-      if(intPrime/2 = %0)
 
+    //Calculations    
+    for(intCount = 21; intCount < 100; intCount = intCount + 2){
+      System.out.println(intCount);
+      }
+      //intCount starts at 21 and stops at 99 but only prints out every other number
+      System.out.println(" ");
+    for(intCount = 29; intCount > 1 ; intCount--){
+      System.out.println(intCount);
+      //intCount starts at 29 and ends at 2 and prints out every number inbetween it in descending order
+    }    
   }
 }
