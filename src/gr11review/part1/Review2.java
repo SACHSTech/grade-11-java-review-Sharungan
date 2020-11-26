@@ -8,11 +8,11 @@ public class Review2{
     //variables
     int intJoke;
     
-    System.out.print("What kind of joke do you wanna hear?");
-    System.out.print("0 - print an joke about your hair");
-    System.out.print("1 - print a joke about your feet");
-    System.out.print("2 - print a joke about your clothes");
-    System.out.print("3 - print a joke about your teacher");
+    System.out.println("What kind of joke do you wanna hear?");
+    System.out.println("0 - print an joke about your hair");
+    System.out.println("1 - print a joke about your feet");
+    System.out.println("2 - print a joke about your clothes");
+    System.out.println("3 - print a joke about your teacher");
     
     //Calculations 
     intJoke = Integer.parseInt(keyboard.readLine());
