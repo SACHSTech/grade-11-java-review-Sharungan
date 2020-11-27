@@ -1,6 +1,12 @@
 package gr11review.part1;
 import java.io.*;
 
+/** 
+* A program that asks the user for what kind of joke they want to hear and then outputing a corresonponding joke.
+*@author: S. Umaipalan
+*
+*/
+
 public class Review2{
 	public static void main(String[] args) throws IOException{
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
