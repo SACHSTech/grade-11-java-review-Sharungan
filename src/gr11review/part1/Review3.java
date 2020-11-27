@@ -1,6 +1,12 @@
 package gr11review.part1;
 import java.io.*;
 
+/** 
+* A program prints out all odd numbers from 20 to 100 and then prints out all numbers from 29 to 2 in descending order.
+*@author: S. Umaipalan
+*
+*/
+
 public class Review3{
 	public static void main(String[] args) throws IOException{
 
