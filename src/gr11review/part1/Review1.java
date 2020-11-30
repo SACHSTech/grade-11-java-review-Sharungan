@@ -1,6 +1,12 @@
 package gr11review.part1;
 import java.io.*;
 
+/** 
+* A program that asks the user for what month and day they want and then outputs what day that is in the year Ex: January 3rd is the 3rd day of the year.
+*@author: S. Umaipalan
+*
+*/
+
 public class Review1{
 	public static void main(String[] args) throws IOException{
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
